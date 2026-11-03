@@ -19,7 +19,8 @@
 
 - Physical connector A/B identity, viewing direction and mating-footprint selection must be established before assigning a manufacturing footprint.
 - NVHS physical group numbers have not been correlated with NVIDIA software Link IDs by measurement.
-- Optional I2C/address, SMBus, presence, power-brake/power-good and JTAG contacts retain the qualifications recorded in the workbook.
+- Optional I2C/address, SMBus, presence, power-brake/power-good and JTAG contacts retain the qualifications recorded in the workbook. The CSVs now cite the Big Basin reference baseboard and OpenPOWER specification for their pin identity and 1.8 V signalling; their electrical treatment on a V100 carrier has not been measured here.
+- The PRSNT2_A/PRSNT2_B positions on connector A (B7/A39) remain GND in the master mapping but are recorded as disputed: the reference baseboard wires them as a presence-detect loop.
 - A schematic contact map and a complete digital connection list do not demonstrate high-speed routing performance, receiver compatibility or system bring-up.
 
 The downloadable workbook covers this repository’s pin mappings, coordinate conventions, NVLink connection plans and source credits. Supporting power/clock circuit designs and private project planning are outside its scope.
