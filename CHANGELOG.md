@@ -2,6 +2,10 @@
 
 Versions identify the reference files someone used; they do not indicate hardware qualification. Future pinout corrections should name the connector/pad, previous assignment, new assignment and supporting evidence.
 
+## Unreleased
+
+- 3 November 2026: documented the distinction between reported basic GPU operation on simple carriers and the reference carrier's presence-detection feature. Explained controller dependencies and the A/B7/A39 ground labels under review. Documentation only; pin tables, workbook, schematics and versioned release assets are unchanged. The evidence-update PR and pin-renaming issue remain pending.
+
 ## 0.1.0-reference - 30 October 2026
 
 First versioned reference snapshot, published as the initial public reference pre-release.

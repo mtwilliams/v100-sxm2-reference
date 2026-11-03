@@ -38,6 +38,8 @@ The [download guide](docs/downloads.md) includes print editions and library-path
 
 **External clock required:** the NVLink starter schematics show data wiring, not a complete working NVLink implementation. Each V100 needs a **156.25 MHz differential NVHS clock on B/E20 (+) and B/F20 (−)**. The separate PCIe clock is **100 MHz on A/E7 (+) and A/F7 (−)**. [Clock requirements and scope](docs/kicad.md#external-clocks-required).
 
+**Presence detection and simple carriers:** the full reference-carrier presence loop is not established as a universal requirement for basic GPU operation. Reported simple carriers omit the feature, while a controller that waits for a presence signal needs that signal handled correctly. See [basic operation versus presence-detection features](docs/presence-detection.md), including the two connector-A contacts whose ground labels are under review. This distinction does not make other supporting circuitry optional.
+
 ## Schematics at a glance
 
 These are the actual **connector-only KiCad schematics**: 400 labelled contacts on A and 400 on B. Click a preview to open the full-size vector drawing. The two- and four-GPU NVLink arrangements are shown separately below and in the connection guides.

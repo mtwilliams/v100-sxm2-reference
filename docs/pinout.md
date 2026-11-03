@@ -38,6 +38,10 @@ Row numbers do not change. There is no column I.
 
 Before transferring these coordinates into a footprint, establish which physical view you are using and which connector is A or B. The existing geometry preview does not establish those electrical identities. `Orientation_Crosswalk` in the workbook explains the translation and signal naming conventions.
 
+## Presence detection and simple carriers
+
+For the distinction between module operation and a carrier's presence-detection feature, including the A/B7 and A/A39 ground labels under review, see [presence-detection guidance](presence-detection.md). This does not change the current pin tables or establish a minimal NVLink bring-up recipe.
+
 ## NVLink signal names
 
 `NVHS0_RX_L0_P` means physical group 0, receive lane 0, positive contact. `TX` means transmit and `N` identifies the negative contact. RX/TX are described from the module's perspective.
