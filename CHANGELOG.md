@@ -2,7 +2,7 @@
 
 Versions identify the reference files someone used; they do not indicate hardware qualification. Future pinout corrections should name the connector/pad, previous assignment, new assignment and supporting evidence.
 
-## Unreleased
+## 0.1.1-reference
 
 - Clarified the difference between basic GPU operation and presence detection on reference carriers.
 - Added Big Basin and OpenPOWER sources contributed by Michael Williams (@mtwilliams) in PR #2. Updated the evidence for sideband and reserved contacts and corroborated the Connector B NVHS clock polarity.

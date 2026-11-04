@@ -12,7 +12,7 @@
 | Four-GPU plan | All twelve group pairings copied from the workbook's `4GPU_Topology`. Not hardware-qualified by this repository. |
 | KiCad starters | A single-module connector starter plus two-/four-module projects with all contacts labelled and the NVLink data lanes connected. Clocks, power and control remain unconnected. |
 | Geometry renders | Visual references from an existing local preview, not an electrically verified carrier layout. |
-| Reference edition | [v0.1.0-reference](https://github.com/pigeon-labs-stack/v100-sxm2-reference/releases/tag/v0.1.0-reference), with complete schematic PDFs, print editions and [change notes](../CHANGELOG.md). |
+| Reference edition | [Versioned snapshots](https://github.com/pigeon-labs-stack/v100-sxm2-reference/releases) with complete schematic PDFs and print editions. See [change notes](../CHANGELOG.md) for the grounding update. |
 | Raw PCB footprint | Not included; provenance/reuse terms, physical identity and symbol-to-pad mapping remain open. See [footprint notes](footprint.md). |
 
 ## Questions retained from the source work

@@ -32,13 +32,15 @@ The two- and four-GPU guides retain the distinction between demonstrated pairing
 
 ## Reference designs and specifications
 
+Michael Williams ([@mtwilliams](https://github.com/mtwilliams)) identified these references and contributed the coordinate cross-check and sideband evidence update in [PR #2](https://github.com/pigeon-labs-stack/v100-sxm2-reference/pull/2). The repository also records his proposed presence-pin renaming in [issue #1](https://github.com/pigeon-labs-stack/v100-sxm2-reference/issues/1).
+
 ### Facebook / QCT — Big Basin GPU baseboard (Open Compute Project)
 
 [Big Basin JBOG specification](https://www.opencompute.org/documents/facebook-big-basin-jbog-spec/) · [design-file archive](https://www.opencompute.org/documents/designfiles-zip)
 
 Big Basin is the eight-GPU SXM2 enclosure that Facebook built with QCT and published through the Open Compute Project in March 2017. Its specification states that the SXM2 baseboard "leverages from the GPU Baseboard design of NVIDIA DGX-1 system", and revision 1.0 lists P100 or V100 SXM2 support. The design-file archive includes the Quanta S2W GPU baseboard schematic (`S2W_SXM2_schematics_fab5_v100_20160623.pdf`, where `v100` is the schematic revision), whose socket symbol is `SCONN400_84740-102LF`.
 
-Its pin coordinates use the same source frame as the MTF raw columns. The curated data cites it for sideband, presence, SMBus, reserved and ground pin names (sheets 15–17 for contacts, and 39–40 for the control circuits) and for the NVHS reference-clock polarity. It is a production reference schematic, not NVIDIA documentation or a measurement of every contact.
+Its pin coordinates use the same source frame as the MTF raw columns. Sheets 15–17 cover sideband, presence, SMBus, reserved and ground contacts and the NVHS reference-clock polarity. Sheets 39–40 document the reference control circuits. It is a production reference schematic, not NVIDIA documentation or a measurement of every contact.
 
 ### OpenPOWER Foundation — Advanced Accelerator Adapter specification
 
